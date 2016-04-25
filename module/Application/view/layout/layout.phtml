@@ -9,10 +9,14 @@
 
         <!-- Le styles -->
         <?php echo $this->headLink(array('rel' => 'shortcut icon', 'type' => 'image/vnd.microsoft.icon', 'href' => $this->basePath() . '/img/favicon.ico'))
-                        ->prependStylesheet($this->basePath() . '/css/bootstrap-responsive.min.css')
+                        
+                        ->prependStylesheet('https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css') 
+                        ->prependStylesheet('https://fonts.googleapis.com/css?family=Titillium+Web')
                         ->prependStylesheet($this->basePath() . '/css/style.css')
+                        ->prependStylesheet($this->basePath() . '/css/bootstrap-responsive.min.css')
                         ->prependStylesheet($this->basePath() . '/css/bootstrap.min.css') ?>
 
+        <link href='' rel='stylesheet' type='text/css'>
         <!-- Scripts -->
         <?php echo $this->headScript()->prependFile($this->basePath() . '/js/html5.js', 'text/javascript', array('conditional' => 'lt IE 9',))
                                       ->prependFile($this->basePath() . '/js/bootstrap.min.js')
@@ -20,6 +24,131 @@
 
     </head>
     <body>
-        <img src="/img/Enarm-Logo-proximamente.png">
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.6";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+        <div id="pages-wrapper" class="index home">
+            <div id="outer-wrapper">
+                <div id="header-wrapper" class="row">
+                    <!-- Logo Site -->
+                    <div name="LOGO" id="header" class="the-logo section"><div id="Header1" data-version="1" class="widget Header">
+                            <div id="header-inner">
+                                <a style="display: block" itemprop="url" href="/">
+                                    <h1><img width="132px; " height="50px; " style="display: block" src="/img/Enarm-Logo_170x170.png" id="Header1_headerimg" alt="mSora"></h1>
+                                </a>
+                            </div>
+                        </div></div>
+                    <!-- Logo Site (End) -->
+                    <!-- Social X -->
+                    <div name="SOCIAL" id="social-x" class="social-x section"><div id="LinkList20" data-version="1" class="widget LinkList">
+                            <div class="widget-content">
+                                <ul>
+                                    <li><a title="facebook" href="https://www.facebook.com/enarmexico" class="facebook"></a></li>
+                                    <li><a title="twitter" href="https://twitter.com/enarmexico" class="twitter"></a></li>
+                                </ul>
+                            </div>
+                        </div></div>
+                    <!-- Social X (End) -->
+                    <!-- ADS Top (Start) -->
+                    <div class="ads-top-728">
+                        <div name="ADS 729x90" id="ads-top-728" class="ads-728 section"><div id="HTML1" data-version="1" class="widget HTML">
+                                <div class="widget-content">
+                                    <img src="http://3.bp.blogspot.com/-7i-8F7vyLIA/Vib64pMErsI/AAAAAAAABZ8/zcV2v8u-uzk/s1600-r/ad1.png" alt="ads">
+                                </div>
+                                <div class="clear"></div>
+                                <span class="widget-item-control">
+                                    <span class="item-control blog-admin">
+                                        <a title="Edit" target="configHTML1" onclick="return _WidgetManager._PopupConfig(document.getElementById(&quot;HTML1&quot;));" href="//www.blogger.com/rearrange?blogID=9104135975044220366&amp;widgetType=HTML&amp;widgetId=HTML1&amp;action=editWidget&amp;sectionId=ads-top-728" class="quickedit">
+                                            <img width="18" height="18" src="//img1.blogblog.com/img/icon18_wrench_allbkg.png" alt="">
+                                        </a>
+                                    </span>
+                                </span>
+                                <div class="clear"></div>
+                            </div></div>
+                    </div>
+                    <!-- ADS Top (End) -->
+                </div>
+                <div class="clear"></div>
+                <div id="menu-1" class="row">
+                    <div id="li-home"><li><a href="/"><i class="fa fa-home"></i></a></li></div>
+                    <div id="menu" class="menu section"><div id="LinkList94" data-version="1" class="widget LinkList">
+                            <ul id="nav">
+                                <li><a href="#">ENARM 2016</a>
+                                </li><li><a href="#">Blog</a></li>
+                                </li><li><a href="#">Foro</a></li>
+                                <li><a href="#">Simulador</a></li>
+                                <li><a href="#">Cursos</a></li>
+                                 <li><a href="#">Herramientas</a></li>
+                            </ul>
+                        </div></div>
+                    <div class="header-search">
+                        <li>
+                            <a class="search">
+                                <form method="get" action="/search/max-results=7">
+                                    <input type="text" placeholder="Type and hit enter..." name="q" id="s">
+                                </form>
+                            </a>
+                        </li>
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div id="content-wrapper">
+                    <div class="sidebar-left">
+                        <div id="sidebar-left" class="sidebara section" name="Sidebar Left">
+                            <div id="HTML2" class="widget HTML" data-version="1">
+                                <h2 class="title">Publicidad</h2>
+                                <div class="widget-content">
+                                    <img src="http://4.bp.blogspot.com/-h15p0mpYXIo/Vib_tGKHUYI/AAAAAAAABas/WgMNCFh9LWU/s1600-r/ad3.png" alt="ads">
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="main-wrapper">
+                        
+                    </div>
+                    <div class="sidebar-right">
+                        <div id="sidebar-right" class="sidebarb section" name="Sidebar Right">
+                            <div id="HTML6" class="widget HTML" data-version="1">
+                                <h2 class="title">Facebook</h2>
+                                <div class="widget-content">
+                                    <div class="fb-page" 
+                                         data-href="https://www.facebook.com/enarmexico"
+                                         data-width="380" 
+                                         data-hide-cover="false"
+                                         data-show-facepile="true" 
+                                         data-show-posts="false">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="clear:both;"></div>
+                <div id="footer-wrapper" class="row" style="margin: 0">
+                    <div id="footer-container">
+                        <div id="footer-container-left" itemtype="http://schema.org/WPFooter" itemscope="">
+                            <p>
+                                ENARM MEXICO 2016
+                            </p>
+                        </div>
+                        <div name="Social Footer" id="social-footer" class="social-footer section"><div id="LinkList40" data-version="1" class="widget LinkList">
+                                <div class="widget-content">
+                                    <ul>
+                                        <li><a title="facebook" href="https://www.facebook.com/enarmexico" class="facebook"></a></li>
+                                        <li><a title="twitter" href="https://twitter.com/enarmexico" class="twitter"></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
